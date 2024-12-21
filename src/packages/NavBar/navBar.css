@@ -1,0 +1,11 @@
+.navBar{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 3rem;
+    background: rgba(0, 0, 0, 0.231);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(8.7px);
+    -webkit-backdrop-filter: blur(8.7px);
+}
