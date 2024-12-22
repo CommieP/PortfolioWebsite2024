@@ -8,7 +8,7 @@ const CurrentPageSlice = createSlice({
     },
     reducers: {
         setCurrentPage: (state, action) => {
-            state.currentPage = NavBarData[action.payload];
+            state.currentPage = action.payload;
         }
 
     }
